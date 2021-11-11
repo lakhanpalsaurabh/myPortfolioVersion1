@@ -1,52 +1,113 @@
 @import url(//db.onlinewebfonts.com/c/25b37831529b1fe1a47649b945dda302?family=Bw+Modelica+Med);
-@font-face {font-family: "Bw+Modelica+Med";
-    src: url("http://db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.svg#Bw Modelica Med") format("svg"); /* iOS 4.1- */
-}
-ul li:nth-child(6n),#filler {
-    color:#212121;
-    font-family:'Bw+Modelica+Med';
-    }
+@font-face {font-family: "Bw Modelica Med"; src: url("//db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.eot"); src: url("//db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.woff") format("woff"), url("//db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/25b37831529b1fe1a47649b945dda302.svg#Bw Modelica Med") format("svg"); }
 h1 {
-    Font family: Bw+Modelica+Med
-    Font style: Thin
-    Font size: 48px
-    Line height: 50px
-    Line height: 86.81%
-    color: red
+    font-family: Bw Modelica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 50px;
+    color: #c4c4c4;
 }
 h2 {
-    Font family: Bw+Modelica+Med
-    Font style: Regular
-    Font size: 24px
-    Line height: 30px
-    Line height: 104.17%
-    color: #212121
+    font-family: Bw Modelica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #c4c4c4;
+}
+h3 {
+    font-family: Bw Modelica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #212121;
 }
 b1 {
-    Font family: Bw+Modelica+Med
-    Font style: Regular
-    Font size: 18px
-    Line height: 25px
-    Line height: 115.74%
-    color: #212121
+    font-family: Bw Modelica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #212121;
 }
 b2 {
-    Font family: Bw+Modelica+Med
-    Font style: Light
-    Font size: 18px
-    Line height: 25px
-    Line height: 115.74%
-    color: #212121
+    font-family: Bw Modelica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #212121;
 }
-.hero {
+b3 {
+    font-family: Bw Modelica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #c4c4c4;
+}
+#bodyGrid {
+    Margin:100px;
+    grid-auto-columns: 12;
+}
+.heroCard {
+    Display: Grid;
     position: absolute;
-    width: 1440px;
+    width:100%;
     height: 606px;
     left: 0px;
     top: 0px;
+    background-color: #212121;
+}
+#leftCaseStudy1 {
+    position: absolute;
+    width: 612px;
+    height: 870px;
+    left: 100px;
+    top: 606px;
+    background-color: #EFEEE9;
+}
+#rightCaseStudy1 {
+    position: absolute;
+    width: 612px;
+    height: 870px;
+    left: 728px;
+    top: 606px;
+    background-color: #EFEEE9;
+}
+#horizontalCaseStudy1 {
+    position: absolute;
+    width: 1240px;
+    height: 417px;
+    left: 100px;
+    top: 1480px;
+    background-color: #EFEEE9;
+    margin: auto;
+}
+#horizontalCaseStudy2 {
+    position: absolute;
+    width: 1240px;
+    height: 417px;
+    left: 100px;
+    top: 1901px;
+    background-color: #EFEEE9;
+    margin: auto;
+}
+#aboutMe {
+    position: absolute;
+    width: 1240px;
+    height: 606px;
+    left: 100px;
+    top: 2322px;
+    background-color: #EFEEE9;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 2928px;
+    background-color: #212121;
 }
